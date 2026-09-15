@@ -47,8 +47,8 @@ def extract_original_text(html_text: str | None) -> str | None:
 @dp.message(CommandStart())
 async def cmd_start(message: Message):
     await message.reply(
-        "Здравствуйте, официальный бот https://t.me/nsk217s. "
-        "Отправляйте свой пост (текст, фото или видео по одному), и он попадет в канал!"
+        "Привет! Это - официальный бот https://t.me/nsk217s. "
+        "Отправляй пост и он попадет в канал! (после прохождения модерации)"
     )
 
 
